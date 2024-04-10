@@ -2,7 +2,7 @@
 
 This project aims to develop a reinforcement learning agent using Proximal Policy Optimization (PPO) and Convolutional Neural Networks (CNN) to play Street Fighter II' - Special Champion Edition for the Genesis console. The agent is trained to compete in a tournament against a sequence of opponents, with a focus on training the character RYU to achieve optimal performance.
 
-# The key objectives of this project include:
+#### The key objectives of this project include:
 
 - **Implementing PPO to train the agent through interactions with the game environment.
 - **Designing a CNN architecture to process game screen inputs and make action predictions.
