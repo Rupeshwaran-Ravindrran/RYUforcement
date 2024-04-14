@@ -18,6 +18,7 @@ Street Fighter II' - Special Champion Edition is a classic 2D fighting game for 
 - **Time Limit:** 99-second match or continue until there's a knockout.
 - **Throws and Holds:** Characters can perform throws or holds by pressing towards the opponent and a medium/strong punch/kick button.
 ![BG_REMOVE](https://github.com/Rupeshwaran-Ravindrran/RYUforcement_Learning/assets/79376089/c587d1f8-e87c-439f-875d-150ef93a0643)
+
 - **Controls:** Utilize the Genesis controller with a D-Pad (UP, DOWN, LEFT, RIGHT), buttons (A, B, C, X, Y, Z), and extra buttons (START, MODE).
 
 ## Agent Mechanics: RYU
