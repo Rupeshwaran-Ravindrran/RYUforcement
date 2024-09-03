@@ -1,0 +1,20 @@
+I have to tweak the reward mechanism for an RL agent in StreetFighterIISpecialChampionEdition-Genesis, These are the information that are available for the agent  at every frame is ['enemy_matches_won', 'score', 'matches_won', 'enemy_health', 'health'] from info[] dictionary. I want to come up with a strategy to shape the reward,
+
+
+
+at the beginning of each round:
+
+score = 0
+
+health [agent health] = 176
+
+enemy_health [opponent health] = 176
+
+matches_won [agent wins] = 0
+
+enemy_matches_won [opponent wins] = 0
+
+
+
+The agent is basically in a best-of-3 tournament, when the agents wins a round matches_won is incremented,  when the agents loses a round  enemy_matches_won is incremented , when he beats the opponent in best-of-3 he advances to the next opponent and matches_won is reset to 0. when he loses to the opponent in best-of-3 he sent back to the first opponent and matches_won is reset to 0. 
+
